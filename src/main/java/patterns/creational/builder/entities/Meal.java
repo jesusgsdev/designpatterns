@@ -21,6 +21,46 @@ public class Meal {
         this.takeAway = builder.takeAway;
     }
 
+    public String getBurger() {
+        return burger;
+    }
+
+    public void setBurger(String burger) {
+        this.burger = burger;
+    }
+
+    public String getDrink() {
+        return drink;
+    }
+
+    public void setDrink(String drink) {
+        this.drink = drink;
+    }
+
+    public String getDessert() {
+        return dessert;
+    }
+
+    public void setDessert(String dessert) {
+        this.dessert = dessert;
+    }
+
+    public String getFries() {
+        return fries;
+    }
+
+    public void setFries(String fries) {
+        this.fries = fries;
+    }
+
+    public Boolean getTakeAway() {
+        return takeAway;
+    }
+
+    public void setTakeAway(Boolean takeAway) {
+        this.takeAway = takeAway;
+    }
+
     public static Builder newMeal() {
         return new Builder();
     }

@@ -13,11 +13,11 @@ public class Transport {
         this.transportStrategy = transportStrategy;
     }
 
-    public void goToTheAirPort(String airport) {
-        transportStrategy.goToTheAirPort(airport);
+    public String goToTheAirPort(String airport) {
+        return transportStrategy.goToTheAirPort(airport);
     }
 
-    public void goToLondon(String airport) {
-        transportStrategy.goToLondon(airport);
+    public String goToLondon(String airport) {
+        return transportStrategy.goToLondon(airport);
     }
 }
